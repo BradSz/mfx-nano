@@ -1,0 +1,7 @@
+# Ignore everything
+*
+
+# Add needed files
+!/docker/*
+!/ext/*
+!/src/*

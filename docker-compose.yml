@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  mfx-nano-dev:
+    build:
+      context: docker
+      dockerfile: Dockerfile
+    volumes:
+      - ./src/:/dir/src
+      - ./ext/:/dir/ext
